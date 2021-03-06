@@ -5,7 +5,13 @@ Programa yra skirta apskaičiuoti pažymių galutinį įvertinimą pasinaudojant
 
 ## Programos aprašymas
 
-Paleidus programą, konsolėje yra prašoma vartotojo įvestį skaiciu, nurodanti kieki mokiniu ties kuriais bus pildomi duomenys:
+Paleidus programą, konsolėje yra klausiama ar nuskaityti duomenys iš failo "kursiokai.txt", ar įvesti duomenys ranka (Galimi pasirinkimai - 'nuskaityti' / 'ivesti'), jeigu failas neegzistuoja, šis klausimas yra praleidžiamas:
+![NuskaitytFail](https://i.postimg.cc/mDPBwTsX/v31.png)
+
+Pasirinkus nuskaityti duomenys iš failo, iš karto pereinama prie rezultato išvesties pasirinkimų (apie tai kiek veliau):
+![NuskaitytFail2](https://i.postimg.cc/vZ0JSCXp/v32.png)
+
+Pasirinkus suvesti duomenys ranka, toliau konsolėje yra prašoma vartotojo įvestį skaicių, nurodanti kiekį mokinių ties kuriais bus pildomi duomenys:
 
 ![Kiekis](https://i.postimg.cc/c4jP8j78/pirmas.png) 
 
@@ -69,3 +75,17 @@ Atsisiųskite naujausia programos versiją iš [Releases](https://github.com/The
 ## Programos releasai
 
 * [v0.1](https://github.com/ThePM2/VU-OP-2uzd./releases/tag/0.1) Pradinė programos versija
+* [v0.2](https://github.com/ThePM2/VU-OP-2uzd./releases/tag/0.2) Pradinė programos versija
+Pridėta:
+  *Galimybė nuskaityti duomenys iš failo "kursiokai.txt"
+  *Pridėtas numatytas "kursiokai.txt" failas.
+Pakeista:
+  *Pataisytas galutinio balo skaičiavimas kai pažymių skaičius 0
+  *Rezultatų išvedimas yra rūšiuojamas pagal pavardę abecėles tvarka
+  *Ištrintas main_cArray.cpp failas.
+  *main_Vector.cpp failas pervadintas į main.cpp failą
+* [v0.3](https://github.com/ThePM2/VU-OP-2uzd./releases/tag/0.3) Pradinė programos versija
+Pridėta:
+  *Išimčių exceptions valdymas.
+Pakeista:
+  *Funkcijos, bei nauji duomenų tipai (struct’ūros) perkelti į antraštinius (angl. header (.h)) failus: File.h ; Funkcijos.h ; Structai.h
